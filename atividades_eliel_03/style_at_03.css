@@ -1,0 +1,110 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #f4f6f9;
+    font-family: "Segoe UI", Arial, sans-serif;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Cabeçalho */
+header {
+    background: linear-gradient(135deg, #4CAF50, #45a049);
+    border-radius: 10px;
+    padding: 25px;
+    margin: 20px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+header h1 {
+    color: #fff;
+    font-size: 1.8em;
+    font-weight: 600;
+}
+
+/* Conteúdo principal */
+main {
+    background: #fff;
+    margin: 20px;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.08);
+}
+
+/* Cada atividade */
+main section {
+    background: #fafafa;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    border-left: 5px solid #4CAF50;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+/* Formulários */
+form {
+    margin-bottom: 15px;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="password"],
+textarea {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    font-size: 1em;
+    transition: border 0.3s;
+}
+
+input:focus, textarea:focus {
+    border-color: #4CAF50;
+    outline: none;
+}
+
+/* Botões */
+button {
+    background: #4CAF50;
+    color: #fff;
+    padding: 12px 20px;
+    font-size: 1.05em;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background 0.3s;
+    width: 100%;
+}
+
+button:hover {
+    background: #388e3c;
+}
+
+/* Textos */
+p {
+    margin-bottom: 10px;
+    color: #444;
+}
+
+/* Rodapé */
+footer {
+    background: #fff;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 0.9em;
+    color: #666;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.08);
+}
+
+footer p {
+    margin: 5px 0;
+}
