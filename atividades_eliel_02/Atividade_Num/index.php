@@ -26,22 +26,22 @@
                     $Num_02 = $_REQUEST['Num_02'];
                     
                     $Resul = $Num_01 + $Num_02;
-                    print("Adição:<br>$Num_01 + $Num_02 = $Resul<br><br>");
+                    print("<div class='resultado'>Adição:<br>$Num_01 + $Num_02 = $Resul</div><br><br>");
                     
                     $Resul = $Num_01 - $Num_02;
-                    print("Subtração:<br>$Num_01 - $Num_02 = $Resul<br><br>");
+                    print("<div class='resultado'>Subtração:<br>$Num_01 - $Num_02 = $Resul</div><br><br>");
                     
                     $Resul = $Num_01 * $Num_02;
-                    print("Multiplicação:<br>$Num_01 X $Num_02 = $Resul<br><br>");
+                    print("<div class='resultado'>Multiplicação:<br>$Num_01 X $Num_02 = $Resul</div><br><br>");
 
                     $Resul = $Num_01 / $Num_02;
-                    print("Divisão:<br>$Num_01 / $Num_02 = $Resul: 2f<br><br>");
+                    print("<div class='resultado'>Divisão:<br>$Num_01 / $Num_02 = $Resul: 2f</div><br><br>");
 
                     $Resul = $Num_01 % $Num_02;
-                    print("Modulo(Resto da divisão):<br>$Num_01 % $Num_02 = $Resul<br><br>");
+                    print("<div class='resultado'>Modulo(Resto da divisão):<br>$Num_01 % $Num_02 = $Resul</div><br><br>");
 
                     $Resul = $Num_01 ** $Num_02;
-                    print("Potenciação:<br>$Num_01<sup>$Num_02</sup> = $Resul<br><br>");
+                    print("<div class='resultado'>Potenciação:<br>$Num_01<sup>$Num_02</sup> = $Resul</div><br><br>");
                     
                 ?>
             </form>
